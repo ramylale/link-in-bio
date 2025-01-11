@@ -4,6 +4,7 @@
     <title>My Link In Bio</title> 
  
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 <style>
   * {
@@ -35,19 +36,43 @@
   height: 48px;
   border-radius: 48px;
   object-fit: cover;
+  border-color: blueviolet;
 }
 
 a {
   color: whitesmoke;
 }
 
+.link-text {
+  text-align: center;
+  flex-grow: 1;
+}
+
 .item {
   background-color: hsl(256 100% 54%);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .container {
   width:640px;
   margin: auto;
+}
+.image {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.social {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 </style>
 </head>
@@ -64,14 +89,14 @@ a {
 
 
   <div class="social">
-   <a href="https://github.com/ramylale" target="_blank">
+   <a href="https://github.com/ramylale" target="_blank" class="link-text">
     github</a>
   
 
-  <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage" target="_blank">
+  <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage" target="_blank" class="link-text">
   Indeed</a>
 
-  <a href="https://www.glassdoor.com/member/profile" target="_blank">
+  <a href="https://www.glassdoor.com/member/profile" target="_blank" class="link-text">
     glassdoor</a>
   </div>
 
@@ -80,28 +105,28 @@ a {
   <div class="item">
    <img class="thumbnail" src="eimages/diana-clemente-t5-gA9aaX4E-unsplash.jpg" alt="Zoro picture">
 
-   <a target="_blank" href="https://onepiece.fandom.com/wiki/Roronoa_Zoro">
+   <a target="_blank" class="link-text" href="https://onepiece.fandom.com/wiki/Roronoa_Zoro">
     Learn more about Roronoa_Zoro!
    </a>
   </div> 
   
   <div class="item">
     <img class="thumbnail" src="eimages/hal-gatewood-OgvqXGL7XO4-unsplash.jpg" alt="Picture of atom">
-    <a target="_blank" href="https://www.space.com/atoms-definition-history-facts">
+    <a target="_blank" href="https://www.space.com/atoms-definition-history-facts" class="link-text">
       What are atoms? EYNTK!
     </a>
   </div>
 
   <div class="item">
     <img class="thumbnail" src="eimages/adam-mills-SgYayrin5HY-unsplash.jpg" alt="picture of retro games">
-    <a target="_blank" href="https://www.redbull.com/us-en/how-to-get-better-at-fighting-games">
+    <a target="_blank" href="https://www.redbull.com/us-en/how-to-get-better-at-fighting-games" class="link-text">
       Need to beat your friends? Learn how!
     </a>
   </div>
 
   <div class="item">
     <img class="thumbnail" src="eimages/darius-F8E2tks5N04-unsplash.jpg" alt="picture of man playing piano">
-    <a target="_blank" href="https://www.instructables.com/7-Steps-to-Learn-How-to-Play-Piano/">
+    <a target="_blank" href="https://www.instructables.com/7-Steps-to-Learn-How-to-Play-Piano/" class="link-text">
       Need tips on playing piano? Here's some!
     </a>
   </div>
