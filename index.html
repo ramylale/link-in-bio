@@ -9,10 +9,19 @@
   * {
     border: 1px red solid;
   }
+
+  html {
+    min-height: 100%;
+  }
+
   body {
+    min-height: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    background: linear-gradient(90deg, #0011de, #df00ff); /* made at https://learnui.design/tools/gradient-generator.html */
+  color: white
   }
+
   .avatar{
     width: 128px;
     height:128px;
@@ -21,6 +30,25 @@
     border-color: blueviolet;
   }
 
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+a {
+  color: whitesmoke;
+}
+
+.item {
+  background-color: hsl(256 100% 54%);
+}
+
+.container {
+  width:640px;
+  margin: auto;
+}
 </style>
 </head>
 
